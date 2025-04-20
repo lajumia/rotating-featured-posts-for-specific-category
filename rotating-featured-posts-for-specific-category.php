@@ -49,6 +49,7 @@
              ),
          ),
          'fields'         => 'ids',
+         'suppress_filters' => false, // IMPORTANT: allows custom order from plugin
      );
  
      $post_ids = get_posts($args);
